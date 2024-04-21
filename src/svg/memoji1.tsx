@@ -7,7 +7,7 @@ import Svg, {
   Use,
   Image,
 } from "react-native-svg"
-export const Memoji_1 = (props: SvgProps) => (
+export function Memoji_1 (props: SvgProps) {
   <Svg
     width={120}
     height={120}
@@ -32,4 +32,4 @@ export const Memoji_1 = (props: SvgProps) => (
       />
     </Defs>
   </Svg>
-)
+}
