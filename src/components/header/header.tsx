@@ -14,7 +14,7 @@ export const Header = () => {
     setStatus(true)
   }
   return(
-    <View className="flex-2 flex space-y-3 m-4 ">
+    <View className="flex-2 flex space-y-4 m-5 ">
       <Text
       className="text-[32px] font-extrabold "
       >Messages</Text>

@@ -8,11 +8,11 @@ import { Memoji_2 } from "../../svg/memoji2"
 
 export const Contact = () => {
   return(
-    <SafeAreaView className="flex-1  m-4">
+    <SafeAreaView className="flex-1 m-4 mt-5">
       <FlatList 
        data={dataContact}
        renderItem={({item, index}) => (
-        <View className="flex  w-full h-auto space-x-4">
+        <View className="flex  h-[90px]">
           <ListItem {...{item}}/>
         </View>
        )}

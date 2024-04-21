@@ -20,4 +20,9 @@ export const dataContact: ContactProps[] = [
     state: "Amigo",
     backgroundPerfil: "yellow-400"
    },
+   {
+    name: "Adão Angelo",
+    state: "Amigo",
+    backgroundPerfil: "yellow-400"
+   },
  ];
